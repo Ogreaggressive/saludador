@@ -1,0 +1,2 @@
+var e=document.querySelector("#nombre-usuario"),n=document.querySelector("#saludador"),o=document.querySelector("#Saludo"),u=new Date,r=new String;n.addEventListener("submit",(function(n){n.preventDefault();var t=e.value,a=u.getHours();console.log(a),a<12?r="buenos Dias":a>=12&&u<=18?r="buenas Tardes":a>18&&(r="buenas Noches"),o.innerHTML="".concat(r," ").concat(t)}));
+//# sourceMappingURL=index.4671a2f4.js.map
